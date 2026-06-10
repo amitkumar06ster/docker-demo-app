@@ -73,27 +73,7 @@ h1,h2 {
 
 <div class="header">
 <h1>🚀 Enterprise DevOps CI/CD Pipeline Successfully Implemented</h1>
-</div>
-
-<div class="section">
-<h2>📌 Project Overview</h2>
-
-<p>
-This project showcases the successful implementation of a complete Continuous Integration and Continuous Deployment (CI/CD) pipeline using GitHub, Jenkins, Docker, Docker Hub, and AWS EC2.
-</p>
-
-<p>
-The objective of this project was to automate the software delivery process from source code management to production deployment, reducing manual effort and ensuring faster, reliable, and consistent releases.
-</p>
-
-<p>
-Whenever developers push code changes to GitHub, Jenkins automatically triggers a pipeline that retrieves the latest source code, builds a Docker image, pushes the image to Docker Hub, and deploys the updated application to an AWS EC2 server.
-</p>
-
-<p>
-This implementation demonstrates modern DevOps practices including automation, containerization, continuous integration, continuous deployment, and infrastructure management within a Linux-based environment.
-</p>
-
+<h2>Version 3.0</h2>
 </div>
 
 <div class="section">
