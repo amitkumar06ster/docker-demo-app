@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>AWS DevOps CI/CD Pipeline Project</title>
+<title>Enterprise DevOps CI/CD Pipeline Project</title>
 
 <style>
 body {
@@ -79,7 +79,7 @@ h1,h2 {
 <h2>📌 Project Overview</h2>
 
 <p>
-This project showcases the successful implementation of a complete Continuous Integration and Continuous Deployment (CI/CD) pipeline using GitHub, Jenkins, Docker, Docker Hub, and AWS EC2.
+This project showcases the successful implementation of a complete Continuous Integration and Continuous Deployment (CI/CD) pipeline using GitHub, Jenkins, Docker, Docker Hub, and an On-Premises Rocky Linux Server.
 </p>
 
 <p>
@@ -87,7 +87,7 @@ The objective of this project was to automate the software delivery process from
 </p>
 
 <p>
-Whenever developers push code changes to GitHub, Jenkins automatically triggers a pipeline that retrieves the latest source code, builds a Docker image, pushes the image to Docker Hub, and deploys the updated application to an AWS EC2 server.
+Whenever developers push code changes to GitHub, Jenkins automatically triggers a pipeline that retrieves the latest source code, builds a Docker image, pushes the image to Docker Hub, and deploys the updated application to an on-premises Docker server.
 </p>
 
 <p>
@@ -106,7 +106,7 @@ from source code commit to production deployment.
 <p>
 Every code change pushed to GitHub automatically triggers a Jenkins Pipeline,
 which validates the source code, builds a Docker image, publishes it to Docker Hub,
-and deploys the latest application version to AWS EC2 with minimal manual intervention.
+and deploys the latest application version to an on-premises Docker server with minimal manual intervention.
 </p>
 
 <h3>Key Features</h3>
@@ -134,7 +134,7 @@ Docker Build<br>
 ↓<br>
 Docker Hub<br>
 ↓<br>
-AWS EC2<br>
+On-Premises Docker Server<br>
 ↓<br>
 Production Deployment
 </div>
@@ -144,8 +144,8 @@ Production Deployment
 <h2>🛠 Technologies Used</h2>
 
 <div class="tech-list">
-GitHub | Git | Jenkins | Docker | Docker Hub | AWS EC2 |
-Linux | Shell Scripting | Jenkinsfile | CI/CD Automation
+GitHub | Git | Jenkins | Docker | Docker Hub | Rocky Linux |
+Nginx | Shell Scripting | Jenkinsfile | CI/CD Automation
 </div>
 </div>
 
@@ -164,11 +164,11 @@ Linux | Shell Scripting | Jenkinsfile | CI/CD Automation
 <h3>Created By Amit Kumar</h3>
 
 <p>
-AWS DevOps Engineer Portfolio Project
+DevOps Engineer Portfolio Project
 </p>
 
 <p>
-GitHub → Jenkins → Docker → Docker Hub → AWS EC2
+GitHub → Jenkins → Docker Build → Docker Hub → On-Premises Docker Server
 </p>
 
 </div>
